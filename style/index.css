@@ -1,143 +1,143 @@
 
 body {
-	transition: all .5s;
-	overflow-x: hidden;
-	width: 100%;
+    transition: all .5s;
+    overflow-x: hidden;
+    width: 100%;
 }
 body::-webkit-scrollbar {
-	display: none;
+    display: none;
 }
 .flex-just {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 }
 .flex {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .flex-start {
-	-webkit-box-pack: flex-start;
-	-webkit-justify-content: flex-start;
-	-ms-flex-pack: flex-start;
-	justify-content: flex-start;
+    -webkit-box-pack: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
 
 }
 .flex-center {
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 #banner {
-	width: 100%;
-	position: relative;
+    width: 100%;
+    position: relative;
 }
 .banner-carousel {
-	width: 100%;
+    width: 100%;
 }
 .banner-img {
-	width: 100%;
+    width: 100%;
 }
 .logo {
-	position: relative;
-	height: 100%;
-	color: #fff;
-	font-size: 2rem;
+    position: relative;
+    height: 100%;
+    color: #fff;
+    font-size: 2rem;
 }
 .logo-img {
-	position: absolute;
-	top: 2%;
-	left: 50%;
-	transform:translate( -50% );
-	-ms-transform:translate( -50% );    /* IE 9 */
-	-moz-transform:translate( -50% );   /* Firefox */
-	-webkit-transform:translate( -50% ); /* Safari 和 Chrome */
-	-o-transform:translate( -50% );     /* Opera */
-	width: 75%;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform:translate( -50% );
+    -ms-transform:translate( -50% );    /* IE 9 */
+    -moz-transform:translate( -50% );   /* Firefox */
+    -webkit-transform:translate( -50% ); /* Safari 和 Chrome */
+    -o-transform:translate( -50% );     /* Opera */
+    width: 75%;
 }
 .main-menu {
-	width: 45%;
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform:translate( -50% );
-	-ms-transform:translate( -50% );    /* IE 9 */
-	-moz-transform:translate( -50% );   /* Firefox */
-	-webkit-transform:translate( -50% ); /* Safari 和 Chrome */
-	-o-transform:translate( -50% );     /* Opera */
+    width: 45%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate( -50% );
+    -ms-transform:translate( -50% );    /* IE 9 */
+    -moz-transform:translate( -50% );   /* Firefox */
+    -webkit-transform:translate( -50% ); /* Safari 和 Chrome */
+    -o-transform:translate( -50% );     /* Opera */
 }
 .logo-nav {
-	position: absolute;
-	right: 0;
-	top: 0;
-	height: 100%;
-	width: 10rem;
-	z-index: 1000;
-	cursor: pointer;
-	background: #010101;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 10rem;
+    z-index: 1000;
+    cursor: pointer;
+    background: #010101;
 }
 .nav-box {
-	color: #fff;
-	background: rgba(0,0,0,.7);
-	cursor: pointer;
-	transition: all .5s;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	z-index: 2000;
-	position: absolute;
-	display: none;
+    color: #fff;
+    background: rgba(0,0,0,.7);
+    cursor: pointer;
+    transition: all .5s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 2000;
+    position: absolute;
+    display: none;
 }
 .nav-box ul {
-	list-style: none;
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	top: 10%;
-	left: 50%;
-	height:  100%;
-	transform:translate( -50% );
-	-ms-transform:translate( -50% );    /* IE 9 */
-	-moz-transform:translate( -50% );   /* Firefox */
-	-webkit-transform:translate( -50% ); /* Safari 和 Chrome */
-	-o-transform:translate( -50% );     /* Opera */
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 10%;
+    left: 50%;
+    height:  100%;
+    transform:translate( -50% );
+    -ms-transform:translate( -50% );    /* IE 9 */
+    -moz-transform:translate( -50% );   /* Firefox */
+    -webkit-transform:translate( -50% ); /* Safari 和 Chrome */
+    -o-transform:translate( -50% );     /* Opera */
 }
 .nav-box ul li {
-	margin: 2.5rem auto;
-	text-align: center;
-	font-size: .8rem;
+    margin: 2.5rem auto;
+    text-align: center;
+    font-size: .8rem;
 }
 .nav-box ul li a {
-	width: 4rem;
-	height: 3rem;
+    width: 4rem;
+    height: 3rem;
 }
 .nav-box ul li img{
-	width: 100%;
-	height: 100%;
-	display: block;
-	margin: 0.2rem auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0.2rem auto;
 }
 .link {
-	color: #fff;
-	text-decoration: none;
-	display: block;
+    color: #fff;
+    text-decoration: none;
+    display: block;
 }
 .link:hover {
-	text-decoration: none;
-	color: #ccc;
+    text-decoration: none;
+    color: #ccc;
 }
 .link:focus {
-	color: #ccc;
-	text-decoration: none;
+    color: #ccc;
+    text-decoration: none;
 }
 
 
@@ -147,277 +147,277 @@ overflow:  hidden;
 /* display:  block; */
 }
 .about-img {
-	width: 100%;
+    width: 100%;
 }
 
 #server{
 
 }
 .server-wrapper {
-	border-radius: 50%;
-	border: 1px solid #eee;
+    border-radius: 50%;
+    border: 1px solid #eee;
 /*    -webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
 
-	-webkit-box-pack: space-around;
-	-webkit-justify-content: space-around;
-	-ms-flex-pack: space-around;
-	justify-content: space-around;*/
-	position: relative;
+    -webkit-box-pack: space-around;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
+    justify-content: space-around;*/
+    position: relative;
 
-	margin: 5rem auto;
-	left: 50%;
-	transform:translate( -50% );
-	-ms-transform:translate( -50% );    /* IE 9 */
-	-moz-transform:translate( -50% );   /* Firefox */
-	-webkit-transform:translate( -50% ); /* Safari 和 Chrome */
-	-o-transform:translate( -50% );     /* Opera */
+    margin: 5rem auto;
+    left: 50%;
+    transform:translate( -50% );
+    -ms-transform:translate( -50% );    /* IE 9 */
+    -moz-transform:translate( -50% );   /* Firefox */
+    -webkit-transform:translate( -50% ); /* Safari 和 Chrome */
+    -o-transform:translate( -50% );     /* Opera */
 }
 .top-left {
-	position: absolute;
-	top: 10%;
-	right: 10%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
 }
 .top-right {
-	position: absolute;
-	top: 10%;
-	left: 10%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
 .bottom-left {
-	position: absolute;
-	bottom: 10%;
-	right: 10%;
-	transform:translate( 0,30% );
-	-ms-transform:translate( 0,30% );    /* IE 9 */
-	-moz-transform:translate( 0,30% );   /* Firefox */
-	-webkit-transform:translate( 0,30% ); /* Safari 和 Chrome */
-	-o-transform:translate( 0,30% );     /* Opera */
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    transform:translate( 0,30% );
+    -ms-transform:translate( 0,30% );    /* IE 9 */
+    -moz-transform:translate( 0,30% );   /* Firefox */
+    -webkit-transform:translate( 0,30% ); /* Safari 和 Chrome */
+    -o-transform:translate( 0,30% );     /* Opera */
 }
 .bottom-right {
-	position: absolute;
-	bottom: 10%;
-	left: 10%;
-		transform:translate( 0,30% );
-	-ms-transform:translate( 0,30% );    /* IE 9 */
-	-moz-transform:translate( 0,30% );   /* Firefox */
-	-webkit-transform:translate( 0,30% ); /* Safari 和 Chrome */
-	-o-transform:translate( 0,30% );     /* Opera */
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+        transform:translate( 0,30% );
+    -ms-transform:translate( 0,30% );    /* IE 9 */
+    -moz-transform:translate( 0,30% );   /* Firefox */
+    -webkit-transform:translate( 0,30% ); /* Safari 和 Chrome */
+    -o-transform:translate( 0,30% );     /* Opera */
 }
 .center-left {
-	position: absolute;
-	transform:translate( -50% );
-	-ms-transform:translate( -50% );    /* IE 9 */
-	-moz-transform:translate( -50% );   /* Firefox */
-	-webkit-transform:translate( -50% ); /* Safari 和 Chrome */
-	-o-transform:translate( -50% );     /* Opera */
-	top: 40%;
-	left: 0%;
+    position: absolute;
+    transform:translate( -50% );
+    -ms-transform:translate( -50% );    /* IE 9 */
+    -moz-transform:translate( -50% );   /* Firefox */
+    -webkit-transform:translate( -50% ); /* Safari 和 Chrome */
+    -o-transform:translate( -50% );     /* Opera */
+    top: 40%;
+    left: 0%;
 }
 .center-right {
-	position: absolute;
-	transform:translate( 50% );
-	-ms-transform:translate( 50% );    /* IE 9 */
-	-moz-transform:translate( 50% );   /* Firefox */
-	-webkit-transform:translate( 50% ); /* Safari 和 Chrome */
-	-o-transform:translate( 50% );     /* Opera */
-	top: 40%;
-	right: 0%;
+    position: absolute;
+    transform:translate( 50% );
+    -ms-transform:translate( 50% );    /* IE 9 */
+    -moz-transform:translate( 50% );   /* Firefox */
+    -webkit-transform:translate( 50% ); /* Safari 和 Chrome */
+    -o-transform:translate( 50% );     /* Opera */
+    top: 40%;
+    right: 0%;
 }
 .secondlogo {
-	width: 25%;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform:translate( -50%, -50% );
-	-ms-transform:translate( -50%, -50% );    /* IE 9 */
-	-moz-transform:translate( -50%, -50% );   /* Firefox */
-	-webkit-transform:translate( -50%, -50% ); /* Safari 和 Chrome */
-	-o-transform:translate( -50%, -50% );     /* Opera */    
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate( -50%, -50% );
+    -ms-transform:translate( -50%, -50% );    /* IE 9 */
+    -moz-transform:translate( -50%, -50% );   /* Firefox */
+    -webkit-transform:translate( -50%, -50% ); /* Safari 和 Chrome */
+    -o-transform:translate( -50%, -50% );     /* Opera */    
 }
 .server-items {
-	width: 108%;
-	justify-content: space-between;
-	cursor: pointer;
+    width: 108%;
+    justify-content: space-between;
+    cursor: pointer;
 }
 .server-item {
-	text-align: center;
+    text-align: center;
 }
 .server-item-top {
-	width: 75%;
+    width: 75%;
 }
 .server-item-bottom {
-	width: 80%;
+    width: 80%;
 }
 .server-img {
-	width: 3rem;
-	height: 3rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 
 
 #production {
-	height: 60rem;
-	background: #eee;
-	overflow:  hidden;
+    height: 60rem;
+    background: #f8f8f8;
+    overflow:  hidden;
 }
 .left-work {
-	height: 100%;
-	position: relative!important;
+    height: 100%;
+    position: relative!important;
 }
 .left-work-img {
-	position: absolute!important;
-	top: 50%;
-	left: 50%;
-	transform:translate( -50%, -50% );
-	-ms-transform:translate( -50%, -50% );    /* IE 9 */
-	-moz-transform:translate( -50%, -50% );   /* Firefox */
-	-webkit-transform:translate( -50%, -50% ); /* Safari 和 Chrome */
-	-o-transform:translate( -50%, -50% );     /* Opera */
+    position: absolute!important;
+    top: 50%;
+    left: 50%;
+    transform:translate( -50%, -50% );
+    -ms-transform:translate( -50%, -50% );    /* IE 9 */
+    -moz-transform:translate( -50%, -50% );   /* Firefox */
+    -webkit-transform:translate( -50%, -50% ); /* Safari 和 Chrome */
+    -o-transform:translate( -50%, -50% );     /* Opera */
 }
 .product-img {
-	width: 90%;
-	margin: 0 auto;
-	cursor: pointer;
+    width: 90%;
+    margin: 0 auto;
+    cursor: pointer;
 }
 #productList {
-	height: 60rem;
+    height: 60rem;
 }
 .production-show {
-	display: none;
+    display: none;
 }
 .product-active {
-	display: block;
+    display: block;
 }
 
 #company {
-	background: #e4e4e4;
+    background: #e4e4e4;
 }
 #partner {
-	background: #e4e4e4;
+    background: #e4e4e4;
 }
 
 
 /*partner*/
 
 .school {
-	text-align: center;
-	height: 50rem;
+    text-align: center;
+    height: 50rem;
 }
 .school-logo-box {
-	text-align: center;
+    text-align: center;
 }
 .school-logo {
-	display: inline-block!important;
-	margin-top: 15rem;
-	position: relative;
-	width: 24%;
+    display: inline-block!important;
+    margin-top: 15rem;
+    position: relative;
+    width: 24%;
 }
 .school-logo img {
-	width: 100%;
+    width: 100%;
 }
 .school-logo:after {
-	content: "";
-	position: absolute;
-	bottom: 0rem;
-	width: 50%;
-	height: .5rem;
-	background: #d2d2d2;
-	border-radius: 50%;
-	left: 50%;
-	transform:translate( -50% );;
-	-ms-transform:translate( -50% );;   /* IE 9 */
-	-moz-transform:translate( -50% );;  /* Firefox */
-	-webkit-transform:translate( -50% );; /* Safari 和 Chrome */
-	-o-transform:translate( -50% );;    /* Opera */
+    content: "";
+    position: absolute;
+    bottom: 0rem;
+    width: 50%;
+    height: .5rem;
+    background: #d2d2d2;
+    border-radius: 50%;
+    left: 50%;
+    transform:translate( -50% );;
+    -ms-transform:translate( -50% );;   /* IE 9 */
+    -moz-transform:translate( -50% );;  /* Firefox */
+    -webkit-transform:translate( -50% );; /* Safari 和 Chrome */
+    -o-transform:translate( -50% );;    /* Opera */
 }
 .carousel-caption {
-	font-size: 1.8rem;
-	top: 3rem;
-	color: #000;
-	text-shadow: none;
+    font-size: 1.8rem;
+    top: 3rem;
+    color: #000;
+    text-shadow: none;
 }
 .carousel-caption text {
-	color: #b79361;
+    color: #b79361;
 }
 .partner-indicators {
-	bottom: 7rem;
+    bottom: 7rem;
 }
 .partner-active {
-	background: #ce9c47!important;
+    background: #ce9c47!important;
 }
 
 .carousel-indicators .active {
-	background: #ce9c47;
-	width: 14px!important;
-	height: 14px!important;
+    background: #ce9c47;
+    width: 14px!important;
+    height: 14px!important;
 }
 .carousel-indicators li {
-	width: 12px;
-	height: 12px;
-	background: #979797;
+    width: 12px;
+    height: 12px;
+    background: #979797;
 }
 
 
 /*flow*/
 .fixed {
-	position: fixed;
-	left: .5rem;
-	top: 50%;
-	background: #fff;
-	transform:translateY( -50% );
-	-ms-transform:translateY( -50% );   /* IE 9 */
-	-moz-transform:translateY( -50% );  /* Firefox */
-	-webkit-transform:translateY( -50% ); /* Safari 和 Chrome */
-	-o-transform:translateY( -50% );    /* Opera */
+    position: fixed;
+    left: .5rem;
+    top: 50%;
+    background: #fff;
+    transform:translateY( -50% );
+    -ms-transform:translateY( -50% );   /* IE 9 */
+    -moz-transform:translateY( -50% );  /* Firefox */
+    -webkit-transform:translateY( -50% ); /* Safari 和 Chrome */
+    -o-transform:translateY( -50% );    /* Opera */
 }
 .fixed a {
-	width: 5rem;
-	height: inherit;
-	display: block;
-	margin: 0;
-	line-height: inherit!important;
-	overflow:  hidden;
-	padding:  0;
+    width: 5rem;
+    height: inherit;
+    display: block;
+    margin: 0;
+    line-height: inherit!important;
+    overflow:  hidden;
+    padding:  0;
 }
 .fixed img {
-	width: 100%;
+    width: 100%;
 }
 
 
 /*connectus*/
 #connectus {
-	color: #fff;
-	background: url( '../images/contact/38.jpg' );
+    color: #fff;
+    background: url( '../images/contact/38.jpg' );
     position: relative;
     width: 100%;
 }
 .connectus-box {
-	 padding: 5rem 0;
-	 width: 100%;
-		  -webkit-flex-direction: column;
-	  -moz-flex-direction: column;
-	  -ms-flex-direction: column;
-	  -o-flex-direction: column;
-	  flex-direction: column;
+     padding: 5rem 0;
+     width: 100%;
+          -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      -o-flex-direction: column;
+      flex-direction: column;
 }
 .connectus-bg {
-	position: absolute;
-	top: 0;
-	width: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 .connectus-content {
-	z-index: 1000;
-	width: 100%;
-	overflow:  hidden;
+    z-index: 1000;
+    width: 100%;
+    overflow:  hidden;
 }
 .from {
-	width: 100%;
-	max-width:  36rem;
-	margin:  0 auto;
-	
+    width: 100%;
+    max-width:  36rem;
+    margin:  0 auto;
+    
 }
 .froup img {
     position: absolute;
@@ -440,22 +440,22 @@ overflow:  hidden;
     -o-transform:translateY( -50% );;    /* Opera */
 }
 .group {
-	background: rgba(102,108,106,0.3);
-	width: 100%;
-	height: 4rem;
-	position: relative;
+    background: rgba(102,108,106,0.3);
+    width: 100%;
+    height: 4rem;
+    position: relative;
 }
 .control {
-	position: absolute;
-	right: 0;
-	height: 100%;
-	width: 90%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 90%;
 }
 .group input {
-	background: rgba(102,108,106,0);
-	border: none;
-	height: 100%;
-	border-radius: 5px;
+    background: rgba(102,108,106,0);
+    border: none;
+    height: 100%;
+    border-radius: 5px;
 }
 .from input:focus {
     border: none;
@@ -464,54 +464,54 @@ overflow:  hidden;
 }
 
 .center-group {
-	position: relative;
-	margin: 1rem 0;
-	width: 100%;
-	height: 4rem;
+    position: relative;
+    margin: 1rem 0;
+    width: 100%;
+    height: 4rem;
 }
 .center-group-left {
-	width: 48%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: rgba(102,108,106,0.3);
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(102,108,106,0.3);
 }
 .center-group-left input {
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 100%;
-	width: 80%;
-	border: none;
-	background-color: rgba(102,108,106,0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    border: none;
+    background-color: rgba(102,108,106,0);
 
 }
 .center-group-right {
-	width: 48%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	background: rgba(102,108,106,0.3);
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(102,108,106,0.3);
 }
 .center-group-right img{
-	position: absolute;
-	left: 0;
-	top: 50%;
-	transform:translateY( -50% );
-	-ms-transform:translateY( -50% );    /* IE 9 */
-	-moz-transform:translateY( -50% );   /* Firefox */
-	-webkit-transform:translateY( -50% ); /* Safari 和 Chrome */
-	-o-transform:translateY( -50% );     /* Opera */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform:translateY( -50% );
+    -ms-transform:translateY( -50% );    /* IE 9 */
+    -moz-transform:translateY( -50% );   /* Firefox */
+    -webkit-transform:translateY( -50% ); /* Safari 和 Chrome */
+    -o-transform:translateY( -50% );     /* Opera */
 }
 .select {
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 100%;
-	width: 80%;	
-	background-color: rgba(102,108,106,0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 80%; 
+    background-color: rgba(102,108,106,0);
     color: #fff;
     border: none;
 }
@@ -524,7 +524,7 @@ overflow:  hidden;
     background: rgba(0,0,0,.8);
 }
 .textarea-box {
-	background: rgba(102,108,106,0.3);
+    background: rgba(102,108,106,0.3);
     
 }
 .message-title {
@@ -541,8 +541,8 @@ overflow:  hidden;
 }
 .textarea {
     background: rgba(102,108,106,0);
-	width: 100%;
-	height: 11rem;
+    width: 100%;
+    height: 11rem;
     border: none;
     border-radius: 2px;
 }
@@ -553,65 +553,80 @@ overflow:  hidden;
 }
 
 .form-btn {
-	width: 100%;
-	margin: 2rem 0 ;
-	justify-content: space-around;
+    width: 100%;
+    margin: 2rem 0 ;
+    justify-content: space-around;
 }
 .form-btn button:nth-child(2) {
-	float: right;
+    float: right;
 }
 .form-btn button {
-	width: 43%;
-	height: 4rem;
-	background: rgba(0,0,0,.2);
-	color: #fff;
+    width: 43%;
+    height: 4rem;
+    background: rgba(0,0,0,.2);
+    color: #fff;
 }
 .form-btn button:hover {
-	background: rgba(0,0,0,.7)!important;
-	color: #fff;
+    background: rgba(0,0,0,.7)!important;
+    color: #fff;
 }
 .form-btn button:focus {
-	background: rgba(0,0,0,.7)!important;
-	color: #fff;
+    background: rgba(0,0,0,.7)!important;
+    color: #fff;
 }
 
 #map {
-	width: 76%;
-	height: 25rem;
-	border-radius: 5px;
-	margin: 0 auto;
+    width: 76%;
+    height: 25rem;
+    border-radius: 5px;
+    margin: 0 auto;
 }
 .map-box  {overflow:  hidden;}
 .map-title {
-	width: 76%;
-	text-align: left;
-	font-size: 1.5rem;
-	margin: 0 auto;
-	margin-bottom:  2rem;
+    width: 76%;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom:  2rem;
 }
 .map-add {
-	font-size: 1.5rem;
-	letter-spacing: 2px;
-	width: 76%;
-	text-align:  center;
-	margin: 0 auto;
-	margin-top:  2rem;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    width: 76%;
+    text-align:  center;
+    margin: 0 auto;
+    margin-top:  2rem;
 }
 .map-box text {
-	font-size: 1rem;
+    font-size: 1rem;
 }
 /*  address */
 .address {
-	margin-top: 4rem;
-	align-items: center;
+    margin-top: 4rem;
+    align-items: center;
+}
+.address img {
+    float: left;
 }
 .address p {
-	margin: 0;
+    line-height: 3rem;
+    font-size: 1.7rem;
+}
+.address-logo {
+    width: 7rem;
+    float: left;
+    margin-right: 2rem;
+}
+.address p {
+    margin: 0;
+}
+.address-info {
+    margin-top: 5px;
 }
 
 .message p{
-	max-width: 36rem;
-	margin: 0 auto;
+    max-width: 36rem;
+    margin: 0 auto;
 }
 .footer {
     height: 4rem;
@@ -622,24 +637,24 @@ overflow:  hidden;
 
 /* show-server */
 .show-server {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	background: rgba(0,0,0,.5);
-	z-index: 10000;
-	display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 10000;
+    display: none;
 }
 .show-server img {
-	height: 90%;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform:translate(-50%,-50%);
-	-ms-transform:translate(-50%,-50%);     /* IE 9 */
-	-moz-transform:translate(-50%,-50%);    /* Firefox */
-	-webkit-transform:translate(-50%,-50%); /* Safari 和 Chrome */
-	-o-transform:translate(-50%,-50%);  /* Opera */
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);     /* IE 9 */
+    -moz-transform:translate(-50%,-50%);    /* Firefox */
+    -webkit-transform:translate(-50%,-50%); /* Safari 和 Chrome */
+    -o-transform:translate(-50%,-50%);  /* Opera */
 
 }
 

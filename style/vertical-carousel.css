@@ -58,7 +58,6 @@ body {
 }
 .carousel.vertical .carousel-inner > .item {
   width: auto;
-  /*padding-right: 50px;*/
   -webkit-transition: 0.6s ease-in-out top;
   transition: 0.6s ease-in-out top;
   overflow-y: hidden;
@@ -124,7 +123,6 @@ body {
 }
  
 .carousel.vertical .carousel-control {
-  /*left: auto;*/
   border-radius: 50%;
   color: #f90;
 }
