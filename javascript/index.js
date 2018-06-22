@@ -65,7 +65,9 @@ $(function() {
     });
     MenuHeight();
     goTopEx();
-    initMap();
+    setTimeout( function() {
+        initMap();
+    },1000)
 });  
 
 

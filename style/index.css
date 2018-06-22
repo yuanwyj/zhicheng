@@ -1,7 +1,8 @@
 
 body {
-		transition: all .5s;
-		overflow-x: hidden;
+	transition: all .5s;
+	overflow-x: hidden;
+	width: 100%;
 }
 body::-webkit-scrollbar {
 	display: none;
@@ -61,7 +62,6 @@ body::-webkit-scrollbar {
 	-moz-transform:translate( -50% );   /* Firefox */
 	-webkit-transform:translate( -50% ); /* Safari 和 Chrome */
 	-o-transform:translate( -50% );     /* Opera */
-
 	width: 75%;
 }
 .main-menu {
@@ -259,9 +259,23 @@ overflow:  hidden;
 
 
 #production {
-	/*height: 65rem;*/
+	height: 60rem;
 	background: #eee;
 	overflow:  hidden;
+}
+.left-work {
+	height: 100%;
+	position: relative!important;
+}
+.left-work-img {
+	position: absolute!important;
+	top: 50%;
+	left: 50%;
+	transform:translate( -50%, -50% );
+	-ms-transform:translate( -50%, -50% );    /* IE 9 */
+	-moz-transform:translate( -50%, -50% );   /* Firefox */
+	-webkit-transform:translate( -50%, -50% ); /* Safari 和 Chrome */
+	-o-transform:translate( -50%, -50% );     /* Opera */
 }
 .product-img {
 	width: 90%;
@@ -301,9 +315,6 @@ overflow:  hidden;
 	position: relative;
 	width: 24%;
 }
-/*.school-list {
-	display: flex;
-}*/
 .school-logo img {
 	width: 100%;
 }
