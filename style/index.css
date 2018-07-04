@@ -73,7 +73,7 @@ body::-webkit-scrollbar {
     right: 0;
     top: 0;
     height: 100%;
-    width: 10rem;
+    width: 9%;
     z-index: 1000;
     cursor: pointer;
     background: #010101;
@@ -98,7 +98,13 @@ body::-webkit-scrollbar {
     left: 50%;
     top: 50%;
     width: 80%;
-    overflow: scroll;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    overflow-y: scroll;
     transform:translate( -50%, -50% );
     -ms-transform:translate( -50%, -50% );    /* IE 9 */
     -moz-transform:translate( -50%, -50% );   /* Firefox */
@@ -106,7 +112,7 @@ body::-webkit-scrollbar {
     -o-transform:translate( -50%, -50% );     /* Opera */
 }
 .nav-box ul li {
-    margin: 2.5rem auto;
+    margin: 12% auto;
     text-align: center;
     font-size: .8rem;
     width: 100%;
@@ -119,7 +125,7 @@ body::-webkit-scrollbar {
 .nav-box ul li img{
     width: 65%;
     display: block;
-    margin: 0.7rem auto;
+    margin: 0.2rem auto;
 }
 .link {
     color: #fff;
@@ -576,6 +582,8 @@ body::-webkit-scrollbar {
     height: 4rem;
     background: rgba(0,0,0,.2);
     color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
 }
 .form-btn button:hover {
     background: rgba(0,0,0,.7)!important;
@@ -602,7 +610,7 @@ body::-webkit-scrollbar {
 
 }
 .map-add {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     letter-spacing: 2px;
     width: 76%;
     text-align:  center;
@@ -610,7 +618,7 @@ body::-webkit-scrollbar {
     margin-top:  2rem;
 }
 .map-box text {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 /*  address */
 .address {
