@@ -4,6 +4,10 @@ $(function() {
         $('#navBox').fadeIn(500);
         $('#menu').hide();
     })
+    $("body").click( function() {
+        $('#navBox').hide();
+        $('#menu').fadeIn();   
+    })   
     $('.server-btn').click( function() {
         var src = ''
         switch( this.dataset.type ) {

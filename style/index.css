@@ -24,19 +24,6 @@ body::-webkit-scrollbar {
     -ms-flex-align: center;
     align-items: center;
 }
-.flex-start {
-    -webkit-box-pack: flex-start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: flex-start;
-    justify-content: flex-start;
-
-}
-.flex-center {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
 #banner {
     width: 100%;
     position: relative;
@@ -46,6 +33,12 @@ body::-webkit-scrollbar {
 }
 .banner-img {
     width: 100%;
+}
+.banner-ctr {
+    margin-left: -10%;
+}
+.banner-ctr li {
+    background: #524c4c;
 }
 .logo {
     position: relative;
@@ -87,7 +80,7 @@ body::-webkit-scrollbar {
 }
 .nav-box {
     color: #fff;
-    background: rgba(0,0,0,.7);
+    background: #000;
     cursor: pointer;
     transition: all .5s;
     height: 100%;
@@ -102,29 +95,31 @@ body::-webkit-scrollbar {
     position: absolute;
     margin: 0;
     padding: 0;
-    top: 10%;
     left: 50%;
-    height:  100%;
-    transform:translate( -50% );
-    -ms-transform:translate( -50% );    /* IE 9 */
-    -moz-transform:translate( -50% );   /* Firefox */
-    -webkit-transform:translate( -50% ); /* Safari 和 Chrome */
-    -o-transform:translate( -50% );     /* Opera */
+    top: 50%;
+    width: 80%;
+    overflow: scroll;
+    transform:translate( -50%, -50% );
+    -ms-transform:translate( -50%, -50% );    /* IE 9 */
+    -moz-transform:translate( -50%, -50% );   /* Firefox */
+    -webkit-transform:translate( -50%, -50% ); /* Safari 和 Chrome */
+    -o-transform:translate( -50%, -50% );     /* Opera */
 }
 .nav-box ul li {
     margin: 2.5rem auto;
     text-align: center;
     font-size: .8rem;
+    width: 100%;
 }
 .nav-box ul li a {
-    width: 4rem;
-    height: 3rem;
-}
-.nav-box ul li img{
     width: 100%;
     height: 100%;
+    font-size: 1.6rem;
+}
+.nav-box ul li img{
+    width: 65%;
     display: block;
-    margin: 0.2rem auto;
+    margin: 0.7rem auto;
 }
 .link {
     color: #fff;
@@ -142,32 +137,16 @@ body::-webkit-scrollbar {
 
 
 #about {
-overflow:  hidden;
-/* height:  auto; */
-/* display:  block; */
+    overflow:  hidden;
 }
 .about-img {
     width: 100%;
 }
 
-#server{
-
-}
 .server-wrapper {
     border-radius: 50%;
     border: 1px solid #eee;
-/*    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    -o-flex-direction: column;
-    flex-direction: column;
-
-    -webkit-box-pack: space-around;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: space-around;
-    justify-content: space-around;*/
     position: relative;
-
     margin: 5rem auto;
     left: 50%;
     transform:translate( -50% );
@@ -178,17 +157,17 @@ overflow:  hidden;
 }
 .top-left {
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 5%;
+    right: 12%;
 }
 .top-right {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 5%;
+    left: 12%;
 }
 .bottom-left {
     position: absolute;
-    bottom: 10%;
+    bottom: 9%;
     right: 10%;
     transform:translate( 0,30% );
     -ms-transform:translate( 0,30% );    /* IE 9 */
@@ -198,7 +177,7 @@ overflow:  hidden;
 }
 .bottom-right {
     position: absolute;
-    bottom: 10%;
+    bottom: 9%;
     left: 10%;
         transform:translate( 0,30% );
     -ms-transform:translate( 0,30% );    /* IE 9 */
@@ -227,7 +206,7 @@ overflow:  hidden;
     right: 0%;
 }
 .secondlogo {
-    width: 25%;
+    width: 35%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -237,13 +216,10 @@ overflow:  hidden;
     -webkit-transform:translate( -50%, -50% ); /* Safari 和 Chrome */
     -o-transform:translate( -50%, -50% );     /* Opera */    
 }
-.server-items {
-    width: 108%;
-    justify-content: space-between;
-    cursor: pointer;
-}
 .server-item {
     text-align: center;
+    font-size: 1.8rem;
+    cursor: pointer;
 }
 .server-item-top {
     width: 75%;
@@ -252,14 +228,14 @@ overflow:  hidden;
     width: 80%;
 }
 .server-img {
-    width: 3rem;
-    height: 3rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 
 
 #production {
-    height: 60rem;
+    /*height: 60rem;*/
     background: #f8f8f8;
     overflow:  hidden;
 }
@@ -393,6 +369,7 @@ overflow:  hidden;
     background: url( '../images/contact/38.jpg' );
     position: relative;
     width: 100%;
+    font-size: 1.8rem;
 }
 .connectus-box {
      padding: 5rem 0;
@@ -444,6 +421,7 @@ overflow:  hidden;
     width: 100%;
     height: 4rem;
     position: relative;
+    border-radius: 2px;
 }
 .control {
     position: absolute;
@@ -469,13 +447,19 @@ overflow:  hidden;
     width: 100%;
     height: 4rem;
 }
+
 .center-group-left {
+    border-radius: 2px;
     width: 48%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background: rgba(102,108,106,0.3);
+}
+.center-group-left img {
+    position: absolute;
+    top: -8%;
 }
 .center-group-left input {
     position: absolute;
@@ -494,10 +478,11 @@ overflow:  hidden;
     top: 0;
     right: 0;
     background: rgba(102,108,106,0.3);
+    border-radius: 2px;
 }
 .center-group-right img{
     position: absolute;
-    left: 0;
+    left: 5%;
     top: 50%;
     transform:translateY( -50% );
     -ms-transform:translateY( -50% );    /* IE 9 */
@@ -505,15 +490,36 @@ overflow:  hidden;
     -webkit-transform:translateY( -50% ); /* Safari 和 Chrome */
     -o-transform:translateY( -50% );     /* Opera */
 }
-.select {
+.select-wrapper {
     position: absolute;
-    top: 0;
     right: 0;
+    width: 70%;
     height: 100%;
-    width: 80%; 
-    background-color: rgba(102,108,106,0);
-    color: #fff;
+}
+.select-wrapper:after{
+    content: "";
+    width: 14px;
+    height: 8px;
+    background: url(../images/contact/arrow.png) no-repeat center;
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    pointer-events: none;
+}
+.select {
+             
     border: none;
+ 
+    outline: none;
+    
+    width: 100%;
+    height: 100%;
+
+   
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: rgba(0,0,0,0);
 }
 .select:focus {
     outline: 0;
@@ -521,7 +527,9 @@ overflow:  hidden;
     border: 0 solid rgba(0,0,0,0);
 }
 .select option {
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,.8)!important;
+    border-radius: 2px;
+
 }
 .textarea-box {
     background: rgba(102,108,106,0.3);
@@ -531,6 +539,7 @@ overflow:  hidden;
     height: 45px;
     line-height: 45px;
     position: relative;
+    color: #828181;
 }
 .message-title div {
     height: 100%;
@@ -544,6 +553,8 @@ overflow:  hidden;
     width: 100%;
     height: 11rem;
     border: none;
+    border-radius: 2px;
+    padding: 0 2rem;
     border-radius: 2px;
 }
 .textarea:focus {
@@ -585,9 +596,10 @@ overflow:  hidden;
 .map-title {
     width: 76%;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 0 auto;
     margin-bottom:  2rem;
+
 }
 .map-add {
     font-size: 1.5rem;
@@ -604,13 +616,14 @@ overflow:  hidden;
 .address {
     margin-top: 4rem;
     align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
 }
 .address img {
     float: left;
 }
 .address p {
     line-height: 3rem;
-    font-size: 1.7rem;
 }
 .address-logo {
     width: 7rem;
@@ -621,18 +634,33 @@ overflow:  hidden;
     margin: 0;
 }
 .address-info {
-    margin-top: 5px;
+    margin-bottom: 5rem;
 }
-
+.add-detail {
+    height: 45px;
+    line-height: 45px;
+}
+.add-detail p {
+    line-height: 45px;
+}
+.add-img {
+    margin-right: 1.5rem;
+}
 .message p{
     max-width: 36rem;
     margin: 0 auto;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+.eng-message {
+    font-size: 1.6rem!important;
 }
 .footer {
     height: 4rem;
     background: #000;
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 /* show-server */
@@ -641,20 +669,13 @@ overflow:  hidden;
     width: 100%;
     height: 100%;
     top: 0;
-    background: rgba(0,0,0,.5);
+    left: 0;
     z-index: 10000;
     display: none;
+    overflow: scroll;
 }
 .show-server img {
-    height: 90%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%);     /* IE 9 */
-    -moz-transform:translate(-50%,-50%);    /* Firefox */
-    -webkit-transform:translate(-50%,-50%); /* Safari 和 Chrome */
-    -o-transform:translate(-50%,-50%);  /* Opera */
+    width: 100%;
 
 }
 
