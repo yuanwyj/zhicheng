@@ -5,7 +5,7 @@ $(function() {
 		initMap();
 	},1000)
 	$('.main-menu').hover(function(){
-		$('#navBox').fadeIn(500);
+		$('#navBox').fadeIn(0);
 		$('#menu').hide();
 	})
 	$("body").click( function() {
