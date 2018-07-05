@@ -73,7 +73,7 @@ body::-webkit-scrollbar {
     right: 0;
     top: 0;
     height: 100%;
-    width: 9%;
+    width: 8%;
     z-index: 1000;
     cursor: pointer;
     background: #010101;
@@ -119,10 +119,10 @@ body::-webkit-scrollbar {
 .nav-box ul li a {
     width: 100%;
     height: 100%;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 .nav-box ul li img{
-    width: 65%;
+    width: 50%;
     display: block;
     margin: 0.2rem auto;
 }
@@ -583,6 +583,21 @@ body::-webkit-scrollbar {
     color: #fff;
     font-size: 2rem;
     font-weight: 100;
+}
+.form-btn div {
+    width: 43%;
+    height: 4rem;
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    float: right;
+    border-color: #eee;
+    line-height: 2.8rem;
+}
+.form-btn div:hover {
+     background: rgba(0,0,0,.7)!important;
+    color: #fff;
 }
 .form-btn button:hover {
     background: rgba(0,0,0,.7)!important;

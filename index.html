@@ -263,22 +263,25 @@
                     <p>留言后我们会尽快与您联系</p>
                     <p class="eng-message">We will contact you as soon as possible.</p>
 
-                    <form class="from">
+                    <form class="from" id="registerForm">
                         <div class="group">
                             <img src="images/contact/tel.png">
-                            <input type="text" class="control" 
+                            <input type="text" 
+                                class="control"  
+                                id="contact" 
                             id="exampleInputEmail1" placeholder="联系方式">                         
                         </div>
                         <div class="center-group">                      
                             <div class="center-group-left">
                                 <img src="images/contact/name.png">
-                                <input type="text" class="" 
-                                id="exampleInputPassword1" placeholder="姓名">
+                                <input type="text"
+                                    id="name" 
+                                    placeholder="姓名">
                             </div>
                             <div class="center-group-right">
                                 <img src="images/contact/32.png">
                                 <div class="select-wrapper">
-                                   <select class="select">
+                                   <select id="area" class="select">
                                       <option>龙华区</option>
                                       <option>宝安区</option>
                                       <option>福田区</option>
@@ -296,11 +299,11 @@
                                 <img src="images/contact/34.png">  
                                 <div>留言</div>
                             </div>
-                          <textarea name="" id="" cols="20" rows="10" class="textarea" ></textarea>
+                          <textarea id="content" name="content" id="" cols="20" rows="10" class="textarea" ></textarea>
                         </div>
                         <div class="form-btn">
                             <button type="reset" class="btn btn-default">重置</button>
-                            <button type="submit" class="btn btn-default">提交</button>
+                            <div id="submit"  class="btn tn-default">提交</div>
                         </div>
                     </form>
                 </div>

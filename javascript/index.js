@@ -67,6 +67,25 @@ $(function() {
     $("#next").click(function(){
         $("#productList").carousel('next');
     });
+
+
+    $("#submit").click( function() {
+        var name = $("#name").val();
+        var contact = $("#contact").val();
+        var area = $("#area").val();
+        var content = $("#content").val();
+          $.post("http://www.zhicwh.com/zhicwh/public/index.php/index/index/savefeedback",
+          {
+            name: name,
+            content: content,
+            contact: contact,
+            area: area
+          },
+          function(data,status){
+            console.log( data )
+          });
+
+    })
     MenuHeight();
     goTopEx();
     setTimeout( function() {
